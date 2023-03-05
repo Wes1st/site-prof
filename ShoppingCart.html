@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container containerHeader">
+            <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+            <form class="formHeader" action="#">
+                <div class="browse">
+                    Browse
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <input type="text" placeholder="Search for Item...">
+                <button><i class="fas fa-search"></i></button>
+            </form>
+            <div class="cartForHeader">
+                <a href="#"><img src="img/cart.png" alt="cart"></a>
+                <div class="MyAccount">
+                    My Account
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container nav">
+            <a href="index.html">Home</a>
+            <a href="#"> Man</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Accoseriese</a>
+            <a href="#">Featured</a>
+            <a href="#">Hot Deals</a>
+        </div>
+    </header>
+    <div class="breadCrumbs">
+        <div class="container breadCrumbsContainer">
+            <div class="newArrivals">
+                New Arrivals
+            </div>
+            <div class="navBreadCrumbs">
+                <a href="index.html">Home</a> /
+                <a href="#">Men</a> /
+                <a href="#">New Arrivals</a>
+            </div>
+        </div>
+    </div>
+    <table class="container tableCart">
+        <tr>
+            <th>Product Details</th>
+            <th>unite Price</th>
+            <th>Quantity</th>
+            <th>shipping</th>
+            <th>Subtotal</th>
+            <th>ACTION</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="tableCartImg"><img src="./img/cartImg1.jpg" alt="cartImg1"></div>
+                <section class="tableSectionText">
+                    <h2>Mango People T-shirt</h2>
+                    <p>Color: <span>Red</span></p>
+                    <p>Size: <span>Xll</span></p>
+                </section>
+            </td>
+            <td>$150</td>
+            <td><input type="number" placeholder="2"></td>
+            <td>FREE</td>
+            <td>$300</td>
+            <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="tableCartImg"><img src="./img/cartImg2.jpg" alt="cartImg1"></div>
+                <section class="tableSectionText">
+                    <h2>Mango People T-shirt</h2>
+                    <p>Color: <span>Red</span></p>
+                    <p>Size: <span>Xll</span></p>
+                </section>
+            </td>
+            <td>$150</td>
+            <td><input type="number" placeholder="2"></td>
+            <td>FREE</td>
+            <td>$300</td>
+            <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="tableCartImg"><img src="./img/cartImg3.jpg" alt="cartImg1"></div>
+                <section class="tableSectionText">
+                    <h2>Mango People T-shirt</h2>
+                    <p>Color: <span>Red</span></p>
+                    <p>Size: <span>Xll</span></p>
+                </section>
+            </td>
+            <td>$150</td>
+            <td><input type="number" placeholder="2"></td>
+            <td>FREE</td>
+            <td>$300</td>
+            <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+        </tr>
+    </table>
+    <div class="container buttonsCartClearContinue">
+        <button class="btnCartClear">cLEAR SHOPPING CART</button>
+        <button class="btnCartClear">cONTINUE sHOPPING</button>
+    </div>
+    <div class="container formCartBuy">
+        <form action="#" class="formCartShippingAdress">
+            <h2 class="formCartH2">Shipping Adress</h2>
+            <input type="text" name="inputFormText" id="BangladeshId" placeholder="Bangladesh"><a href="#"><i
+                    class="fas fa-caret-down"></i></a>
+            <input type="text" name="inputFormText" id="StateId" placeholder="State">
+            <input type="text" name="inputFormText" id="PostcodeId" placeholder="Postcode / Zip">
+            <button class="formCartByaSmall">get a quote</button>
+        </form>
+        <form action="#" class="formCartCouponDiscount">
+            <h2 class="formCartH2">coupon discount</h2>
+            <span>Enter your coupon code if you have one</span>
+            <input type="text" name="inputFormText" id="StateCouponId" placeholder="State">
+            <button class="formCartByaSmall">Apply coupon</button>
+        </form>
+        <div class="cartFormCheckout">
+            <div class="cartFormCheckoutContainer">
+                <div class="cartFormCheckoutTotal">Sub total <span>$900</span></div>
+                <div class="cartFormCheckoutGrandTotal">GRAND TOTAL<span>$900</span></div>
+                <button class="cartFormCheckoutBtn">proceed to checkout</button>
+            </div>
+        </div>
+    </div>
+    <div class="container subscribeContainer">
+        <div class="container subscribe">
+            <div class="subscribeComment">
+                <div class="fotoUser">
+                    <img src="./img/fotoUser.png" alt="fotoUser">
+                </div>
+                <div class="subscribeCommentUser">
+                    <i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</i>
+                    <div class="subscribeCommentName">
+                        Bin Burhan <br>
+                        <span>Dhaka, Bd</span>
+                    </div>
+                    <div class="subscribeCommentList">
+                        <a class="subscribeCommentPagination" href="#"></a>
+                        <a class="subscribeCommentPagination" href="#"></a>
+                        <a class="subscribeCommentPagination" href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribeFeedback">
+                Subscribe
+                <span>FOR OUR NEWLETTER AND PROMOTION</span>
+                <form class="subscribeForm" action="#">
+                    <input type="email" placeholder="Enter Your Email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container footerContent">
+            <div class="footerLogoText">
+                <div class="logoFooter">
+                    <img src="./img/Logo.png" alt="LogoFooter">
+                </div>
+                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                    syndicate
+                    multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array
+                    of
+                    processes and cross-unit partnerships. <br><br>
+
+                    Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+            </div>
+            <div class="footerNav">
+                <nav class="footerNavBox">
+                    <h2 class="footerNavHead">COMPANY</h2>
+                    <ul class="footerNavList">
+                        <li><a href="index.html">Home
+                            </a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="footerNavBox">
+                    <h2 class="footerNavHead">INFORMATION</h2>
+                    <ul class="footerNavList">
+                        <li><a href="#">Tearms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">How to Buy</a></li>
+                        <li><a href="#">How to Sell</a></li>
+                        <li><a href="#">Promotion</a></li>
+                    </ul>
+                </nav>
+                <nav class="footerNavBox">
+                    <h2 class="footerNavHead">SHOP CATEGORY</h2>
+                    <ul class="footerNavList">
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Child</a></li>
+                        <li><a href="#">Apparel</a></li>
+                        <li><a href="#">Brows All</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="copyrightFooter">
+            <div class="container copyrightContainer">
+                <div class="copyright">
+                    &copy; 2017 Brand All Rights Reserved.
+                </div>
+                <div class="socalLogo">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
